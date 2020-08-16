@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions
 
 driver = webdriver.Chrome(executable_path="C:\chromedriver.exe")
 
-driver.get("https://test.algocademy.com")
+driver.get("https://test.algocademy.com/")
 list = []
 list1 = []
 # cumparaturi = driver.find_element_by_xpath("//input[@placeholder='Search for Vegetables and Fruits']").send_keys("ber")
